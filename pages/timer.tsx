@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
-import '../app/globals.css';
+import '../app/globals.css'
 const Meditation = () => {
   const [goal, setGoal] = useState(0);
   const [timeMeditated, setTimeMeditated] = useState(0);
@@ -10,6 +10,10 @@ const Meditation = () => {
     const savedGoal = localStorage.getItem('meditationGoal');
     if (savedGoal) {
       setGoal(parseInt(savedGoal));
+    }
+    const savedTimeMeditated = localStorage.getItem('timeMeditated');
+    if (savedTimeMeditated) {
+      setTimeMeditated(parseInt(savedTimeMeditated));
     }
     // Set up interval for meditation timer
     startTimer();
@@ -23,9 +27,13 @@ const Meditation = () => {
     if (intervalRef.current) clearInterval(intervalRef.current);
     intervalRef.current = setInterval(() => {
       if (!isPaused) {
-        setTimeMeditated((prev) => prev + 1);
+        setTimeMeditated((prev) => {
+          const newTimeMeditated = prev + 1;
+          localStorage.setItem('timeMeditated', newTimeMeditated.toString());
+          return newTimeMeditated;
+        });
       }
-    }, 60000); // 1 minute interval
+    }, 1000); // 1 second interval
   };
 
   const handlePauseResume = () => {
@@ -34,16 +42,26 @@ const Meditation = () => {
 
   const handleReset = () => {
     setTimeMeditated(0);
+    localStorage.setItem('timeMeditated', '0');
     setIsPaused(false);
     startTimer();
+  };
+
+  const formatTime = (seconds: number) => {
+    if(seconds<=0){
+      return "0:00"
+    }
+    const minutes = Math.floor(seconds / 60).toString().padStart(2, '0');
+    const remainingSeconds = (seconds % 60).toString().padStart(2, '0');
+    return `${minutes}:${remainingSeconds}`;
   };
 
   return (
     <div className="bg-black text-white flex items-center justify-center min-h-screen">
       <div className="text-center">
         <h1 className="text-3xl mb-4">Meditation</h1>
-        <p className="text-xl">Time Meditated: {timeMeditated} minutes</p>
-        <p className="text-xl">Goal: {goal} minutes</p>
+        <p className="text-xl">Meditated: {formatTime(timeMeditated)}</p>
+        <p className="text-xl">Time Left: {formatTime(goal-timeMeditated)} minutes</p>
         <div className="mt-4">
           <button 
             onClick={handlePauseResume} 

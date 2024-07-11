@@ -31,3 +31,37 @@ body {
     text-wrap: balance;
   }
 }
+#meditation-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 600px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 20px;
+  z-index: 1000;
+}
+
+#meditation-modal h1 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+#meditation-modal p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+#modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}

@@ -5,7 +5,7 @@ import { useState } from 'react';
 
 const Home = () => {
   const [goal, setGoal] = useState('');
-  
+  const [modal,setModal]=useState(false)
 
   const handleGoalChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const newGoal = e.target.value;
@@ -33,7 +33,7 @@ const Home = () => {
           </Link>
         </div>
         <div className="flex flex-col items-center border p-6 w-1/3 bg-white shadow-lg rounded-lg">
-          <Link href="/meditation">
+          <Link href="/timer">
             <button className="mb-4 px-6 py-3 bg-green-600 text-white text-lg rounded-lg hover:bg-green-700">
               Meditate
             </button>
@@ -49,12 +49,33 @@ const Home = () => {
 
           </div>
         </div>
-        <div className="flex flex-col items-center border p-6 w-1/3 bg-white shadow-lg rounded-lg">
-          <h2 className="text-xl font-semibold mb-2 text-gray-800">Meditation Calendar</h2>
-          <p className="text-gray-600">Calendar integration here</p>
+ 
+        <div onClick={()=>setModal(prev=>!prev)} className="flex flex-col items-center border p-6 w-1/3 bg-white shadow-lg rounded-lg">
+          <h2 className="text-xl font-semibold mb-2 text-gray-800">Meditation</h2>
+          <p className="text-gray-600">Learn about Meditation</p>
         </div>
-      </div>
+
+        {modal && (
+        <>
+          <div className="modal-overlay" onClick={()=>setModal(prev=>!prev)} />
+          <section className="meditation-modal" id="meditation-modal">
+            <h1>What is Meditation?</h1>
+            <p>Meditation is a practice where an individual uses a technique – such as mindfulness, or focusing the mind on a particular object, thought, or activity – to train attention and awareness, and achieve a mentally clear and emotionally calm and stable state.</p>
+            <h1>How to Meditate</h1>
+            <p>To meditate, find a quiet and comfortable place to sit. Close your eyes and focus on your breath. Notice the sensation of the breath as it enters and leaves your body. When your mind wanders, gently bring your attention back to your breath.</p>
+            <h1>Going Forward</h1>
+            <p>Regular meditation practice can help you manage stress, increase self-awareness, and improve overall well-being. Start with just a few minutes a day and gradually increase the duration as you become more comfortable with the practice.</p>
+          </section>
+        </>
+      )}
     </div>
+
+
+        
+
+        
+      </div>
+
   );
 };
 
