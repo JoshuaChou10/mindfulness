@@ -43,11 +43,11 @@ const Journal = () => {
           <div className="fixed inset-0 bg-gray-600 bg-opacity-50 flex items-center justify-center z-50">
             <div className="bg-white rounded-lg p-8 shadow-lg w-3/4 max-w-md relative">
               <div className="flex justify-end">
-                <button onClick={toggleModal} className="text-black-500 hover:text-black-700">&times;</button>
+                <button onClick={toggleModal} className="text-gray-500 hover:text-gray-700">&times;</button>
               </div>
-              <h2 className="text-2xl font-semibold mb-4">What is a Mindfulness Journal?</h2>
-              <p className="text-gray-800 mb-4">A mindfulness journal is a place to jot down any thoughts or feelings you notice throughout the day. It is a good tool to help bring awareness and clarity into our lives. When we put our thoughts and feelings on paper, we may find many things we didn't notice before.</p>
-            
+              <h2 className="text-2xl text-gray font-semibold mb-4">What is a Mindfulness Journal?</h2>
+              <p className="text-gray-800 mb-4">A mindfulness journal is a place to jot down any thoughts or feelings you notice throughout the day in a non-judgemental way. It is a good tool to help bring awareness and clarity into our lives. When we put our thoughts and feelings on paper, we may find many things we didn't notice before.</p>
+          
             </div>
           </div>
           <div className="fixed inset-0 z-40 bg-black opacity-50" onClick={toggleModal}></div>
