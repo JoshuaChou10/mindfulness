@@ -1,19 +1,28 @@
 import { useState } from 'react';
 import '../app/globals.css';
 
-const sections = {
-  "Week One: Mindfulness": {
+interface Section {
+  practice: string;
+  text: string;
+  imageUrl: string;
+}
+
+
+const sections: { [key: string]: Section } = {
+  "Day One: Mindfulness": {
     practice: `
-      <h2>Practice</h2>
-      <p>Take a few moments to focus on your breath. Notice the sensation of air entering and leaving your body.</p>
+      <h2>Something else here</h2>
+      <p> Hello and welcome to the world of mindfulness. This course is intended for anyone looking to integrate mindfulness into their everyday lives, living every moment in peace, harmony and clarity. </p>
+<p>To put it simply, mindfulness means living in the Now. It means being aware of the thoughts and feelings that constantly run underground our attention. Are you aware of what is going on now? Mindfulness is knowing what is. </p>
+
     `,
     text: `
-      <h1>Mindfulness</h1>
-      <p>Mindfulness is the practice of being present and fully engaged with whatever we're doing at the moment, free from distraction or judgment, and aware of our thoughts and feelings without getting caught up in them.</p>
-    `,
-    imageUrl: '/images/mindfulness.jpg',
+      <h1>An Introduction</h1>
+      <p> Hello and welcome to the world of mindfulness. This course is intended for anyone looking to integrate mindfulness into their everyday lives, living every moment in peace, harmony and clarity. </p>
+      <p>To put it simply, mindfulness means living in the Now. It means being aware of the thoughts and feelings that constantly run underground our attention. Are you aware of what is going on now? Mindfulness is knowing what is. </p>    `,
+    imageUrl: '/mindfulness.webp',
   },
-  "Week Two: The Present": {
+  "Day Two: The Present": {
     practice: `
       <h2>Practice</h2>
       <p>Spend a minute observing your surroundings. Notice the details you usually overlook.</p>
@@ -24,7 +33,7 @@ const sections = {
     `,
     imageUrl: '/images/present.jpg',
   },
-  "Week Three: Meditation": {
+  "Day Three: Meditation": {
     practice: `
       <h2>Practice</h2>
       <p>Sit quietly for five minutes, focusing on your breath or a calming word.</p>
@@ -35,7 +44,7 @@ const sections = {
     `,
     imageUrl: '/images/meditation.jpg',
   },
-  "Week Four: Thoughts": {
+  "Day Four: Thoughts": {
     practice: `
       <h2>Practice</h2>
       <p>Notice your thoughts for a minute without judgment. Let them come and go.</p>
@@ -46,7 +55,7 @@ const sections = {
     `,
     imageUrl: '/images/thoughts.jpg',
   },
-  "Week Five: Feelings": {
+  "Day Five: Feelings": {
     practice: `
       <h2>Practice</h2>
       <p>Take a moment to notice how you're feeling right now. Acknowledge your feelings without judgment.</p>
@@ -57,7 +66,7 @@ const sections = {
     `,
     imageUrl: '/images/feelings.jpg',
   },
-  "Week Six: Loving What Is": {
+  "Day Six: Loving What Is": {
     practice: `
       <h2>Practice</h2>
       <p>Reflect on something you appreciate about your current situation.</p>
@@ -71,34 +80,45 @@ const sections = {
 };
 
 const MindfulnessCourse = () => {
-  const [selectedSection, setSelectedSection] = useState("Week One: Mindfulness");
+
+  const [selectedSection, setSelectedSection] = useState<keyof typeof sections>("Day One: Mindfulness");
+
+  const handleViewExerciseClick = () => {
+    document.getElementById("practice-section")?.scrollIntoView({ behavior: "smooth" });
+  };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2 bg-gradient-to-r from-blue-100 to-blue-200">
-      <nav className="flex flex-col w-full bg-white py-4 shadow-md">
-        <div className="flex justify-around">
-          {Object.keys(sections).map((section) => (
-            <button
-              key={section}
-              className={`px-4 py-2 mx-2 rounded-lg ${
-                selectedSection === section
-                  ? 'bg-green-500 text-white'
-                  : 'bg-blue-500 text-white hover:bg-blue-600'
-              }`}
-              onClick={() => setSelectedSection(section)}
-            >
-              {section}
-            </button>
-          ))}
-        </div>
+    <div className="relative flex flex-col items-center justify-center min-h-screen py-2 bg-gradient-to-r from-blue-100 to-blue-200">
+      <nav className="absolute top-0 left-0 right-0 flex justify-around w-full bg-white py-4 shadow-md z-10">
+        {Object.keys(sections).map((section) => (
+          <button
+            key={section}
+            className={`px-4 py-2 mx-2 rounded-lg ${
+              selectedSection === section
+                ? 'bg-green-500 text-white'
+                : 'bg-blue-500 text-white hover:bg-blue-600'
+            }`}
+            onClick={() => setSelectedSection(section as keyof typeof sections)}
+          >
+            {section}
+          </button>
+        ))}
       </nav>
-      <div className="flex flex-col items-center mt-8">
-        <div className="bg-white p-6 rounded-lg shadow-md max-w-md text-center mb-8">
-          <div dangerouslySetInnerHTML={{ __html: sections[selectedSection].practice }} className="text-gray-800"></div>
+      <div className="flex flex-col items-center mt-24 max-w-4xl">
+        <div className="flex flex-row items-start">
+          <div className="text-left p-4">
+            <div dangerouslySetInnerHTML={{ __html: sections[selectedSection].text }} className="text-gray-800"></div>
+            <button 
+              onClick={handleViewExerciseClick} 
+              className="mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
+            >
+              View Exercise
+            </button>
+          </div>
+          <img src={sections[selectedSection].imageUrl} alt="Mindfulness" className="ml-4 mt-4 max-w-md rounded-lg shadow-lg" />
         </div>
-        <div className="text-center">
-          <div dangerouslySetInnerHTML={{ __html: sections[selectedSection].text }} className="text-gray-800"></div>
-          <img src={sections[selectedSection].imageUrl} alt={selectedSection} className="mt-4 max-w-md rounded-lg shadow-lg" />
+        <div id="practice-section" className="bg-white p-6 rounded-lg shadow-md max-w-md text-center mb-8 mt-8">
+          <div dangerouslySetInnerHTML={{ __html: sections[selectedSection].practice }} className="text-gray-800"></div>
         </div>
       </div>
     </div>
