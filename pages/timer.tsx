@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import '../app/globals.css'
+import Link from 'next/link'
 const Meditation = () => {
   const [goal, setGoal] = useState(0);
   const [timeMeditated, setTimeMeditated] = useState(0);
@@ -57,7 +58,10 @@ const Meditation = () => {
   };
 
   return (
-    <div className="bg-black text-white flex items-center justify-center min-h-screen">
+    <div className="relative bg-black text-white flex items-center justify-center min-h-screen">
+      <Link className="absolute top-4 left-4 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 flex items-center" href="/">
+          Home
+      </Link>
       <div className="text-center">
         <h1 className="text-3xl mb-4">Meditation</h1>
         <p className="text-xl">Meditated: {formatTime(timeMeditated)}</p>
