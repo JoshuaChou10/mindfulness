@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { useState } from 'react';
+import { useState, useEffect} from 'react';
 
 const Home = () => {
   const [goal, setGoal] = useState('');
@@ -13,7 +13,12 @@ const Home = () => {
     localStorage.setItem('meditationGoal', newGoal);
   };
 
- 
+  useEffect(() => {
+    const savedGoal = localStorage.getItem('meditationGoal');
+    if (savedGoal) {
+      setGoal(savedGoal);
+    }
+  }, []);
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2 bg-gradient-to-r from-green-200 to-blue-200">

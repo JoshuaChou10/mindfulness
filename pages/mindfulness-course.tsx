@@ -46,6 +46,7 @@ const sections: { [key: string]: Section } = {
       <p>Today I’m inviting you to live fully everyday. Everything is always more enjoyable when your attention is on the activity you are doing and not wandering around somewhere. When washing the dishes are you thinking, “I better get this done quick, then I can sit on the couch and relax.” Then when you’re on the couch, “I should be doing something right now, I’m getting bored.” 
       If you are rushing through every moment, where are you going? Let’s stay in the here and now. </p>
       <p>People who enjoy what they are doing are naturally in the moment. When you are playing basketball, your focus is only on the dribbling, the running, the shooting. You’re really enjoying it. When every moment is lived like this, then we can flow through life without worry, without fear, only lightness and a sense of being present. </p>
+      <p>Being mindful doesn’t mean that we can’t plan. We can think of the future but without getting lost in fearful stories about it. Then whenever a situation comes up we can deal with it efficiently without getting caught up in the scary “what if’s.” When it is like this, we are able to let go when we have done what is needed. The mind is a useful tool, just make sure to use it with awareness and not get caught up in thinking. </p>
                 `,
     imageUrl: '/present.png',
   },
@@ -101,6 +102,7 @@ const MindfulnessCourse = () => {
   const handleNextDayClick = () => {
     const sectionsKeys = Object.keys(sections);
     const currentIndex = sectionsKeys.indexOf(selectedSection as string);
+    // % operator ensures the page goes back to index 0, once it reaches highest index so EB_Garamond. 7%7=0
     const nextIndex = (currentIndex + 1) % sectionsKeys.length;
     setSelectedSection(sectionsKeys[nextIndex] as keyof typeof sections);
   };

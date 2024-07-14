@@ -10,7 +10,7 @@ const Meditation = () => {
   useEffect(() => {
     const savedGoal = localStorage.getItem('meditationGoal');
     if (savedGoal) {
-      setGoal(parseInt(savedGoal));
+      setGoal(parseInt(savedGoal)*60);
     }
     const savedTimeMeditated = localStorage.getItem('timeMeditated');
     if (savedTimeMeditated) {
@@ -23,6 +23,14 @@ const Meditation = () => {
       if (intervalRef.current) clearInterval(intervalRef.current);
     };
   }, []);
+  
+  useEffect(() => {
+    if (!isPaused) {
+      startTimer();
+    } else {
+      if (intervalRef.current) clearInterval(intervalRef.current);
+    }
+  }, [isPaused]);
 
   const startTimer = () => {
     if (intervalRef.current) clearInterval(intervalRef.current);
