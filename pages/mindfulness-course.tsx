@@ -12,23 +12,25 @@ const sections: { [key: string]: Section } = {
   "Day One: Mindfulness": {
     practice: `
     <h2 style="font-size: 1.25rem; font-weight: bold;">The Senses</h2>
-    <p>This is a good and simple 5-10 minute exercise that will help strengthen your mindfulness. I remember this was my favorite exercise when I first started. I first learned this from Oli Doyle’s book, Mindfulness Plain and Simple. </p>
+    <p>This is a good and simple 5-10 minute exercise that will help strengthen your mindfulness. </p>
     <p>Sit down and take in two to three deep breaths to quiet down. Now bring your attention to the sounds around you. Listen, what do you hear? The sounds of traffic, the birds chirping, people talking. Any sounds, far or near, take it all in. You may notice an urge to label, or judge the sounds, but we are simply listening. It is just sound, listen closely and you will get to be aware of many small things that you weren’t aware of before.  </p>
     <p>Now let’s bring our attention to any feelings on the body. Any tension or stress, just notice each one and relax. Be aware of any contact or pressure. For example, you can be aware of how it feels to sit, the feeling of the feet on the ground. Anything you can find, from head to toe, let your awareness sweep through every part. </p>
     <p>Slowly stand up, and notice how that feels. The legs stretching, the pressure shifting. Open your eyes and take in all the vibrant colors around you. Notice each shape. Notice the different shades of color. Notice any movement.</p>
-    <p>Take it all in, any sounds, sensations, sights. Whatever you hear, feel, or see let your awareness feel all of it. </p>
-    
+    <p>Take it all in, any sounds, sensations, sights. It’s all here for us to enjoy. </p>
+        
 
     `,
     text: `
       <h1 style="font-size: 1.25rem; font-weight: bold;">An Introduction</h1>
-      <p> Hello and welcome to the world of mindfulness. Mindfulness means really experiencing things as they are and not lost in thought. Mindfulness means noticing, being aware. When every moment is lived mindfully our lives are charaterized by clarity and peace. Things that once stressed us out now no longer bother us. We may even laugh about them now. Through mindfulness we grow in wisdom, compassion and peace. </p>
-      <p>To put it simply, mindfulness means living in the here and now. It means not being lost thinking of the past or future, but instead, being aware of the thoughts that arise moment to moment. When we start to become aware of the thoughts and feelings that constantly run underground our attention we begin to notice many things we weren’t aware of before.  Are you aware of what is going on now? That’s what matters. </p> 
- <p>Many of us have never truly lived. We experience our lives only through the dull screen of our thoughts. It can be a while before we realize that freedom is found only in the present moment, not in some past or future up there in our head. When living mindfully we get to truly experience things as they are. When walking in a trail, you enjoy the soft breeze on your face, the warmth of the bright yellow sunlight shining down, and the crunch of the leaves beneath your feet. The crisp birdsongs, the feeling of your foot contacting the ground as you walk, the soft sensation of the breath. This is mindfulness, clear and light. </p> 
- <p>This course is structured with a new way to get connected with ourselves every day. Each section includes an applicable way to bring mindfulness and clarity into our lives. My hope is that with this course as a guide, you will be able to live every moment as it should be lived, connected with the now, with a sense of lightnesess and gratitude. </p>
- <p> So let’s start with today. Let’s start paying attention, because you will find that most of us are constantly lost in thought. Lost in stories of the past or the future. We miss what truly matters, right here under our nose. So as often as you can, bring your attention back to the Now. If you notice you are lost in thought, lost somewhere in the imagined future, or lost in the ghost of a past, then bring your attention back to the present. Then in that moment, you are free. Free from all the stories that we tell ourselves, and back in reality. Back in the here and now. </p>
+      <p> Hello and welcome to the world of mindfulness. Over here you will find a fuller way to live. A way characterized by joy, love, lightness and clarity. When I first started practicing mindfulness at the age of 13 I immediately became very interested. I really wanted to understand, to live. I got interested in books, in meditation, and in the present moment. Mindfulness brought me back to myself. As I continued through my practice I started noticing that things that used to stress me out no longer bothered me. Gradually a sense of lightness, balance, and peace embraced me, and remains with me to this day. Sometimes I would even catch myself smiling for no specific reason. Now only clarity remains. Through practicing mindfulness and understanding, we can walk around life with eyes wide open. Just washing the dishes, making conversation, drinking some tea. It’s all here for you to discover. The best part is that you can start now. Anyone can, at any age, any circumstance, and it’s so simple. Let’s give it a try. </p>
+      <br>
+      <p>So what is mindfulness? To put is simply, mindfulness means living in the present moment. We are aware. When walking in a trail we can feel the soft breeze on our face, the warm sun. We can feel the soft crunch of the leaves beneath our feet. Mindfulness is something to be applied to in our everyday lives, in every moment. When washing the dishes, where is your mind at? Place your attention on the action you are doing, no need to get caught up in past or future. Feel as you place your hand on the plate, the cool water rushing down. The bright colors, and different shadings. When something is done with clarity, everything becomes fun. Just a moment in the life. Walking, moving, watching, loving.  </p>
+      <p>In mindfulness we are free from wanting because we see that all we could ever need is right here, right now with us. Anything else is just another thought.</p>
+      <p>Sometimes I think of my mind like a child. I just listen to all of its demands. Dad, can I have this toy? Mom! Please give me a pony. We all have things we think we want, but have we ever considered letting go? Just let go and live with what is. Because then we can allow a true love to fill our lives. Then we can love what is. </p>
+      <p> Below I have included a simple exercise where you can use your five senses to stay connected. </p>
+      
  
- <p> Below there is an exercise where you can use your five senses to stay connected. </p>
+
  
  
  
@@ -68,6 +70,7 @@ const sections: { [key: string]: Section } = {
       <p>To start find a nice comfortable spot to sit where you can keep your back straight. You can sit on the edge of a chair, or on a meditation cushion. Start by taking in two or three deep breaths to relax. Now bring your attention to the in and out of the breath. Feel the cool air goes through the nostrils, and the warm air as it comes out. You can also try noticing the silent pause in between the out-breath and the in-breath. When watching the breath let it flow naturally, don’t try to control it. In the beginning, you may feel the breath is too deep or too short. Don’t worry, just let it be, eventually through practice you will be able to breathe naturally. So meditation is really simple, we are just watching this very breath that accompanies as throughout this life. As you continue the mind will wander off many times, thinking about something else as it usually does. When this happens, simply bring your attention back to the breath. </p>
       <p>When meditation becomes a daily habit of ours we can truly appreciate it. After a meditation session, we naturally feel good. We feel well-rested, and our mindfulness is sharp. You will notice that boredem isn’t a problem anymore. Another benifit of mindfulness is it allows you to see thoughts more clearly. You see that any stress is always caused by believing a stressful thought. Now that your mindfulness is sharp, these thoughts appear clearer to you and you no longer follow after them.</p>
       <p>Most people start with 5-10 minutes of meditation a day, then slowly build up, to 15 minutes, 20 minutes, 30 minutes. Eventually, it becomes a part of your life, like eating or sleeping. Whenever you feel stressed or like you need to quiet down you can sit in meditation. It helps in every aspect of your life. I like meditating in the morning, right when I get up from bed. I meditate for one hour then go for a walk outside. It’s good. In meditation you have to find what works best for you, don’t worry about how long you can sit for, the point of meditation is just to calm the mind. </p>
+      <p>If you have any questions feel free to email me at joshuachou912@gmail.com</p>
       
 
     `,
@@ -101,8 +104,8 @@ const sections: { [key: string]: Section } = {
       <p>Reflect on something you appreciate about your current situation.</p>
     `,
     text: `
-      <h1>Letting Go</h1>
-      <p>Let everything go, put it all down. Let it all go without exception. Let go with a knowing and awareness. We are able to let go because we see that there is nothing worth holding on to. When we put it all down we are met with only peace. Just be. </p>
+      <h1>Loving What Is</h1>
+      <p></p>
     `,
     imageUrl: '/images/loving-what-is.jpg',
   },
