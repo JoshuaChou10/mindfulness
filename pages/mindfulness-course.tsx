@@ -44,6 +44,9 @@ const sections: { [key: string]: Section } = {
     `,
     text: `
     <h1 style="font-size: 1.25rem; font-weight: bold;">Savouring Every Moment</h1>
+    <p> When we begin to become mindful we are able to enjoy every moment as it is. It may take a long time for someone to realize that only the present moment can be savored. Maybe they may have gone through their lives only half there. When spending time with their family, their minds are off somewhere else. When walking in a trail, or doing the dishes their minds are off thinking about things like work, or school. Then one day they may come to see that life is to be lived right here right now.</p>
+<p>Try this out, whatever you’re doing place your full attention on it, really take in every part of it. For example when talking to someone you are listening to what they are saying, not thinking of what you are going to say next. When peeling an orange you can notice the bright color of the skin, the feeling as you take off the peel. When eating notice the sweet taste and the juicy texture of the flesh. When our full attention is on whatever we are doing then we can say we are truly doing it. Have you ever peeled an orange before? Have you ever walked in a trail, or washed the dishes? When we are in the moment everything we do becomes fun. </p>
+
 
     
                 `,
@@ -77,19 +80,19 @@ const sections: { [key: string]: Section } = {
   },
   "Thoughts": {
     practice: `
-      <h2>Practice</h2>
+    <h1 style="font-size: 1.25rem; font-weight: bold;">Catch Every Thought</h1>
       <p>Notice your thoughts for a minute without judgment. Let them come and go.</p>
     `,
     text: `
-      <h1>Life Without Problems</h1>
-      <p>Problems can only exist in the past or future. When we start worrying about what is going to happen, or what has already happened then we are lost. Our thoughts tell us painful and scary stories about our lives- ”It should have happened like this”, or “What if this happens? ”  The good news is that it can’t be anything more than just a thought. If we get caught up in these stories of past and future then it is like we are trapped in a movie theatre, we know nothing but the story that we are watching. In mindfulness, we simply notice the thought. When we are aware, we see that these are just thoughts, they don’t contain any truth. We don’t have to believe them you know. When we see a thought for what it is then we are awake to the simple truth of what is infront of you. A tree, a table, a person. Everything is as it is. </p>
+    <h1 style="font-size: 1.25rem; font-weight: bold;">Life Without Problems</h1>
+      <p>Problems can only exist in the past or future. When we start worrying about what is going to happen, or what has already happened then we are lost. Our thoughts tell us painful and scary stories about our lives- ”It should have happened like this”, or “What if this happens?”  The good news is that it can’t be anything more than just a thought. If we get caught up in these stories of past and future then it is like we are trapped in a movie theatre, we know nothing but the story that we are watching. In mindfulness, we simply notice the thought. When we are aware, we see that these are just thoughts, they don’t contain any truth. We don’t have to believe them you know. When we see a thought for what it is then we are awake to the simple truth of what is infront of you. A tree, a table, a person. Everything is as it is. </p>
       <p>Thoughts tell us stories about what is. These stories often argue with reality and that is what causes suffering. For example the thought - “My parents should be more understanding” is a painful thought to believe. If you follow after it, make it into your story, then life becomes confusing. Just a single thought can cause so much strife and conflict, and the thought isn’t even true. </p>
 <p>What happens when you believe the stressful thought-” My parents should be more understanding.” It hurts. When you don’t believe the stories your mind tells you, there isn’t a problem in the world. You're fine to experience everything as it is. You’re able to have a good look at what is without resistance. A good question to ask yourself is- “Is it true?” Byron Katie, in her book “A Mind at Home With Itself” introduces us to inquiry. If you find a stressful thought, just question it. </p>
 <p>Many of us have the thought- “I am not good enough.” Many stressful thoughts stem from this one thought. “I should be more…”, “I should have more…” Watch what happens when you believe these thoughts, it doesn’t feel good does it? The truth is that everyone is perfect as they are, it is only these stories that are telling us otherwise. </p>
 <p>In mindfulness we are aware of whatever thoughts arise so we don’t follow after them. This is why meditation is so important, it let’s us get still enough to see the various thoughts that arise. As we grow in mindfulness we get to see the subtle thoughts that we once believed-”I need”, “They should be more,” but now we see that these are just thoughts. We once believed them, took them to be ours, but now we are simply aware.  </p>
 
     `,
-    imageUrl: '/images/thoughts.jpg',
+    imageUrl: '/thoughts.png',
   },
   "Feelings": {
     practice: `
@@ -105,7 +108,7 @@ const sections: { [key: string]: Section } = {
   "Letting Go": {
     practice: `
       <h2>Practice</h2>
-      <p>Reflect on something you appreciate about your current situation.</p>
+      <p>Let go then you will see. </p>
     `,
     text: `
       <h1>Loving What Is</h1>
@@ -176,7 +179,7 @@ const MindfulnessCourse = () => {
           onClick={handleNextPageClick}
           className="px-4 py-2 mx-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600"
         >
-          Next Day
+          Next Page
         </button>
     </div>
   );
