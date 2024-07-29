@@ -8,7 +8,7 @@ interface Section {
   imageUrl: string;
 }
 
-
+//Landscape image theme
 const sections: { [key: string]: Section } = {
   "Mindfulness": {
     practice: `
@@ -36,14 +36,14 @@ const sections: { [key: string]: Section } = {
   },
   "The Present": {
     practice: `
-    <h1 style="font-size: 1.25rem; font-weight: bold;">Life Without Problems</h1>
-    <p>Problems can only exist in the past or future. When we start worrying about what is going to happen, or what has already happened then we are lost. Our thoughts tell us painful and scary stories about the past and the future - ”It should have happened like this”, or “What if this happens? ”  The good news is that it can’t be anything more than just a thought. If we get caught up in these stories of past and future then it is like we are trapped in a movie theatre, we know nothing but the story that we are watching. In mindfulness, we simply notice the thought. When we are aware, we see that these are just thoughts, they don’t contain any truth. We don’t have to believe them you know. </p>
-    
-    `,
-    text: `
     <h1 style="font-size: 1.25rem; font-weight: bold;">Just This</h1>
     <p>The core of mindfulness is the present moment. After all, where else can you be mindful? Even when you are thinking about the past. The past is just another thought in the present moment. Take a good look around you, it is all here. The floor, the ceiling, the chair, the fan, the computer. Where can you find the past or the future? I am not saying that the past never happened, but where is it now? Just stored up in our heads as memories. When we try to grasp at it, it’s gone. The Now is all we ever have so let’s come back to it. </p>
 <p>When we are caught in some stressful thought or feeling all we have to do is come back to this moment. No problems can exist here. It’s just this. That’s it. When we are able to live fully in the present, then we are complete. We see everything clearly in a single moment, just as it is. This doesn’t mean that we can’t think of past and future, it just means that we don’t get lost worrying or feeling bad about them. We can still plan our day, and solve crossword puzzles, it’s just that now we know that we are doing it in the present moment.  When it is like this every moment can be lived in peace, we are able to go about life efficiently with a grateful lightness, confident that everything will turn out fine.</p>
+
+    
+    `,
+    text: `
+    <h1 style="font-size: 1.25rem; font-weight: bold;">Savouring Every Moment</h1>
 
     
                 `,
@@ -81,8 +81,13 @@ const sections: { [key: string]: Section } = {
       <p>Notice your thoughts for a minute without judgment. Let them come and go.</p>
     `,
     text: `
-      <h1>Thoughts</h1>
-      <p>Our thoughts can influence our emotions and behavior. Understanding and managing our thoughts can help us respond to situations more effectively and reduce stress.</p>
+      <h1>Life Without Problems</h1>
+      <p>Problems can only exist in the past or future. When we start worrying about what is going to happen, or what has already happened then we are lost. Our thoughts tell us painful and scary stories about our lives- ”It should have happened like this”, or “What if this happens? ”  The good news is that it can’t be anything more than just a thought. If we get caught up in these stories of past and future then it is like we are trapped in a movie theatre, we know nothing but the story that we are watching. In mindfulness, we simply notice the thought. When we are aware, we see that these are just thoughts, they don’t contain any truth. We don’t have to believe them you know. When we see a thought for what it is then we are awake to the simple truth of what is infront of you. A tree, a table, a person. Everything is as it is. </p>
+      <p>Thoughts tell us stories about what is. These stories often argue with reality and that is what causes suffering. For example the thought - “My parents should be more understanding” is a painful thought to believe. If you follow after it, make it into your story, then life becomes confusing. Just a single thought can cause so much strife and conflict, and the thought isn’t even true. </p>
+<p>What happens when you believe the stressful thought-” My parents should be more understanding.” It hurts. When you don’t believe the stories your mind tells you, there isn’t a problem in the world. You're fine to experience everything as it is. You’re able to have a good look at what is without resistance. A good question to ask yourself is- “Is it true?” Byron Katie, in her book “A Mind at Home With Itself” introduces us to inquiry. If you find a stressful thought, just question it. </p>
+<p>Many of us have the thought- “I am not good enough.” Many stressful thoughts stem from this one thought. “I should be more…”, “I should have more…” Watch what happens when you believe these thoughts, it doesn’t feel good does it? The truth is that everyone is perfect as they are, it is only these stories that are telling us otherwise. </p>
+<p>In mindfulness we are aware of whatever thoughts arise so we don’t follow after them. This is why meditation is so important, it let’s us get still enough to see the various thoughts that arise. As we grow in mindfulness we get to see the subtle thoughts that we once believed-”I need”, “They should be more,” but now we see that these are just thoughts. We once believed them, took them to be ours, but now we are simply aware.  </p>
+
     `,
     imageUrl: '/images/thoughts.jpg',
   },
