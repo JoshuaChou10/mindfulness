@@ -48,10 +48,10 @@ const Home = () => {
         </div>
   
         <Link href="/mindfulness-course?section=Meditation" className="flex-1">
-          <div className="flex flex-col items-center border p-6 bg-white shadow-lg rounded-lg h-full">
-            <h2 className="text-xl font-semibold mb-2 text-gray-800">Meditation</h2>
-            <p className="text-gray-600">Learn about Meditation</p>
-          </div>
+        <div className="flex flex-col items-center border p-6 bg-white shadow-lg rounded-lg h-full transition-transform transform hover:scale-105 hover:bg-blue-300 hover:text-white cursor-pointer">
+    <h2 className="text-xl font-semibold mb-2 text-gray-800">Meditation</h2>
+    <p className="text-gray-600">Click here to learn about Meditation</p>
+  </div>
         </Link>
       </div>
     </div>

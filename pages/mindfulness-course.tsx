@@ -118,7 +118,7 @@ const sections: { [key: string]: Section } = {
     `,
     imageUrl: '/images/feelings.jpg',
   },
-  "Letting Go": {
+  "Everyday Peace": {
     practice: `
       <h2>Practice</h2>
       <p></p>
@@ -127,7 +127,7 @@ const sections: { [key: string]: Section } = {
       <h1>Everyday Peace</h1>
       <p>Freedom can only be found here an now. Not tommorrow, not yesterday, not on a mountain, but just right here. Peace can only come from within. It doesn’t come from achieving this or that. True lasting joy won’t reveal itself once you get the things you want. Let’s just start here, within. Then we will know a true happiness that doesn’t fall away. A joy that is immovable in all circumstances. </p>
     `,
-    imageUrl: '/images/loving-what-is.jpg',
+    imageUrl: '/peace.png',
   },
 };
 
