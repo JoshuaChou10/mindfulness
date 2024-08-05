@@ -23,15 +23,17 @@ const sections: { [key: string]: Section } = {
     `,
     text: `
       <h1 style="font-size: 1.25rem; font-weight: bold;">An Introduction</h1>
-      <p> Our lives are full of experience. We get to be a child, go to school, meet new people, grow up, find a job, raise a family. We get to feel the happiness of spending time with people we love. And the stress when things don’t go our way. If we take a look, our lives are characterized by various experiences, some of which we like, and some of which we dislike. Many of us are generally in a rush. We’re late for the bus, still have to study for that test. We go upstairs, get bored, then go downstairs. We try good food, decent food, get tired of that too. We climb a mountain, go skydiving, watch television. We strive for a better university, a better resume, a better job. We strive to be liked, to feel secure, to find happiness. </p>
-<p>Looking at this, you have to give us some credit. We continue on, doing everything we can.</p>
-      <p>Mindfulness is a way of staying connected. It is a way of slowing down and taking a good look at every moment. Here you will find a fuller way to live. A way characterized by joy, love, lightness, and clarity. When I first started practicing mindfulness at the age of 13 I immediately became very interested. I really wanted to understand, to experience everything fully. I got interested in books, in meditation, and in the present moment. Mindfulness brought me back to myself. As I continued through my practice I started noticing some changes. Things that used to stress me out no longer bothered me. Gradually a sense of lightness, balance, and peace embraced me, and remains with me to this day. Sometimes I would even catch myself smiling for no specific reason. Now only the clarity remains. This is the power of mindfulness.</p>      
+      <p> If we take a good look at the human life, it is full of experience.  We get to be a child, go to school, meet new people, grow up, find a job, raise a family. We get to feel the happiness of spending time with people we love. And the stress when things don’t go our way. If we take a look, our lives are characterized by various experiences, some of which we like, and some of which we dislike. </p>
+<p>Many of us are generally in a rush. We’re late for the bus, still have to study for that test. We go upstairs, get bored, then go downstairs. We try good food, decent food, get tired of that too. We climb a mountain, go skydiving, watch television. We argue, we forgive. We laugh and cry. We search, and search. We strive for a better university, a better resume, a better job. We strive to be liked, to feel secure, to find happiness. </p>
+<p>Looking at this, you really have to give us some credit. We continue on like this, doing everything we can. </p>
+<p>Mindfulness is a way of staying connected. It is a way of slowing down and taking a good look at every moment. Here you will find a fuller way to live. A way characterized by joy, love, lightness, and clarity. When I first started practicing mindfulness at the age of 13 I immediately became very interested. I really wanted to understand, to experience everything fully. I got interested in books, in meditation, and in the present moment. Mindfulness brought me back to myself. As I continued through my practice I started noticing some changes. Things that used to stress me out no longer bothered me. Gradually a sense of lightness, balance, and peace embraced me, and remains with me to this day. Sometimes I would even catch myself smiling for no specific reason. Now only the clarity remains. So this is the power of mindfulness.</p>
 <p>Through practicing mindfulness and understanding, we can walk around life with eyes wide open. Just washing the dishes, making conversation, drinking some tea. It’s all here for you to discover. The best part is that you can start now. Anyone can, at any age, and any circumstance. It’s so simple, why not give it a try?</p>
-<p>Mindfulness means living in the present moment. We are aware. When walking in a trail we can feel the soft breeze on our face, the warm sun. We can feel the soft crunch of the leaves beneath our feet. Mindfulness is something to be applied to in our everyday lives, in every moment. For example, when washing the dishes, where is your mind at? Place your attention on the action you are doing, no need to get caught up in past or future. Feel as you place your hands on the plate, the cool water rushing down. The various vibrant colors, and different shadings. When something is done with clarity, everything becomes fun. Just a moment in the life. Walking, moving, watching, loving.  </p>
-<p>When you do something you enjoy you are naturally in the present moment. For example, when playing basketball you’re attention is only on the game, the dribbling, the running, the shooting, the cheering. When playing chess, or doing computer programming, you are only doing it because it’s fun. You’re not thinking of anything else, you’re just working along, absorbed in the task at hand.</p>
+<p>Mindfulness means living in the present moment. We are aware. When walking in a trail we can feel the soft breeze on our face, the warm sun. We can feel the soft crunch of the leaves beneath our feet. Mindfulness is something to be applied to in our everyday lives, in every moment. For example, when washing the dishes, where is your mind at? Place your attention on the action you are doing, no need to get caught up in past or future. Feel as you place your hands on the plate, the cool water rushing down. The various vibrant colors, and different shades of white and blue. When something is done with clarity, everything becomes fun. Just a moment in the life. Walking, moving, watching, loving.  </p>
+<p>When you do something you enjoy you are naturally in the present moment. For example, when playing basketball youre attention is only on the game, the dribbling, the running, the shooting, the cheering. When playing chess, or doing computer programming, you are only doing it because it’s fun. You’re not thinking of anything else, you’re just working along, absorbed in the task.</p>
 <p>In mindfulness we are free from wanting because we see that all we could ever need is right here, right now with us. Anything else is just another thought.</p>
-<p>Sometimes I think of my mind like a child. I just listen to all of its demands. Dad, can I have this toy? Mom! Please give me a pony. We all have things we think we want, but have we ever considered letting go? Just let go and live with what is. Because then we can allow a true love to fill our lives; then we can love what is. </p>
+<p>Sometimes I think of my mind like a child. I just listen to its demands. Dad, can I have this toy? Mom! Please give me a pony. We all have things we think want, but have we ever considered letting go? Just let go and live with what is. Because then we can allow a true love to fill our lives; then we can love what is. </p>
 <p> Below I have included a simple exercise where you can use your five senses to stay connected. </p>
+
 
  
   `,
@@ -65,17 +67,21 @@ const sections: { [key: string]: Section } = {
     `,
     text: `
     <h1 style="font-size: 1.25rem; font-weight: bold;">Meditation</h1>
-    <p>Meditation is for us to settle down. It’s for us to get still. My grandfather used to love telling me stories about his meditation experiences. These stories got me interested in meditation but the change only started when I sat down and tried it myself. It is about remaining calm and peaceful in every situation. Having meditation as a part of your life is very helpful. Whenever you feel like you want to quiet down you can just go sit and meditate. When you have meditation by your side and in your life you find it difficult to get stressed. Your natural state is balanced, joyful and at peace. </p>
+    <p>Meditation is for us to settle down. It’s for us to get still. My grandfather used to love telling me stories about his meditation experiences. These stories got me interested in meditation but the change only started when I sat down and tried it myself. Having meditation as a part of your life is very helpful. Whenever you feel like you want to quiet down you can just go sit and meditate. When you have meditation by your side and in your life you find it difficult to get stressed. Your natural state is balanced, joyful and at peace. </p>
 <p> Meditation is a great way to strengthen mindfulness. Being mindful on a daily basis is an important practice, but those who truly want to integrate mindfulness into their lives also meditate. Meditation supports mindfulness. The calm and stillness that comes from concentration makes it easier to remain balanced and at ease throughout the day.</p>
-<p>As we begin to practice meditation you will find that everything becomes clearer. Therefore you can deal with every situation with an ease and efficiency. Meditation truly helps with every aspect of your life, from family life to work you are able to work in harmony with others and with the world.</p>
+<p>As we begin to practice meditation you will find that everything becomes clearer. Meditation truly helps with every aspect of your life, from family life to work you are able to work in harmony with others and with the world.</p>
+<p>Most people start with 5-10 minutes a day and slowly increase the time from there. 15 minutes, 20 minutes, 30 minutes. </p>
+<p>The point isn’t how long you can sit down for. Meditating is just for us to get still and calm the mind. You don’t have to sit for 2 hours a day for the meditation to take effect. If you can sit for 20 minutes that’s enough. If you can sit for 40 minutes that is good too. Whatever you feel is right and benificial then you can do it. </p>
+<br>
+<h1 style="font-size: 1.25rem; font-weight: bold;">How to Meditate</h1>
 <p>To start find a nice comfortable spot to sit where you can keep your back straight. You can sit on the edge of the chair, or on a cushion. </p>
      <p>Take 2-3 deep breaths to relax then gently place your attention on the in and out of your breathing</p>
      <p>Feel as the cool air comes in and as the soft air comes out. Feel the slight pause in between the in breath and the out breath</p>
      <p>Let the breathing flow naturally, do not try to control it. You may feel that it is too long or short, but just let it be. Through practice the breath will be able to flow naturally.</p>
      <p>As you continue watching the in-breath and the out-breath, various thoughts will arise. The mind will wander just like it always does throughout the day, thinking about this and that. In meditation we can be aware that we are lost in thought. Once we notice that we have wandered off we can just gently bring our attention back to the breath. </p>
-     <p>Watching this breath is the essence of meditation. As you continue returning your attention to the breath you will find that your mindfulness and concentration is sharper. This means that after meditation we feel well rested and at peace. Subtle thoughts that once ran underground our attention, now appear clearer to us. We see that every painful feeling can only come from believing a stressful thought. With this stillness, we are able to catch the confusing and stressful thoughts that arise and so we don’t follow after them.</p>
+     <p>Watching this breath is the essence of meditation. As you continue returning your attention to the breath you will find that your mindfulness and concentration becomes sharper. This means that after meditation we feel well rested and at peace. Subtle thoughts that once ran underground our attention, now appear clearer to us. We see that every painful feeling can only come from believing a stressful thought. With this stillness, we are able to catch the confusing and stressful thoughts that arise and so we don’t follow after them.</p>
      <p>It can be compared to a lake. Usually, the lake is muddy and wavy so when we walk in it we can’t see all the garbage, the fish, the crabs that are at the bottom of the floor. So we are constantly stepping on them. When we meditate we make the water still and let everything settle down so we can look through the crystal clear water and avoid anything that would hurt to step on. Now that the lake is still and clear we can actually enjoy our time here. The lake is our mind, the fish and crabs are our thoughts. Stepping on them represents believing our painful thoughts and following after them. This is why we remain mindful throughout the day, so we know what is going on and we are able to remain calm and at ease. </p>
-      <p>Most people start with 5-10 minutes a day and slowly build up from there. I like meditating in the morning, right when I get up from bed. Although you can find what time works best for you. Having meditation as a part of your life is really helpful. Everytime you are feeling stressed or like you need to quite down, you can just sit in meditation.  </p>
+      <p>I like meditating in the morning, right when I get up from bed. Although you can find what time works best for you. Having meditation as a part of your life is really helpful. Everytime you are feeling stressed or like you need to quite down, you can just sit in meditation.  </p>
       
 
     `,
@@ -90,8 +96,9 @@ const sections: { [key: string]: Section } = {
     <h1 style="font-size: 1.25rem; font-weight: bold;">Life Without Problems</h1>
       <p>Problems can only exist in the past or future. When we start worrying about what is going to happen, or what has already happened then we are lost. Our thoughts tell us painful and scary stories about our lives- ”It should have happened like this”, or “What if this happens?”  The good news is that it can’t be anything more than just a thought. If we get caught up in these stories of past and future then it is like we are trapped in a movie theatre, we know nothing but the story that we are watching. In mindfulness, we simply notice the thought. When we are aware, we see that these are just thoughts, they don’t contain any truth. We don’t have to believe them you know. When we see a thought for what it is then we are awake to the simple truth of what is in front of us. A tree, a table, a person. Everything is as it is. </p>
       <p>Thoughts tell us stories about what is. These stories often argue with reality and that is what causes suffering. For example the thought - “My parents should be more understanding” is a painful thought to believe. If you follow after it, make it into your story, then life becomes confusing. Just a single thought can cause so much strife and conflict, and the thought isn’t even true. </p>
-<p>What happens when you believe the stressful thought-” My parents should be more understanding.” It hurts. When you don’t believe the stories your mind tells you, there isn’t a problem in the world. You're fine to experience everything as it is. You’re able to have a good look at what is without resistance. A good question to ask yourself is- “Is it true?” Byron Katie, in her book “A Mind at Home With Itself” introduces us to inquiry. If you find a stressful thought, just question it. </p>
-<p>Many of us have the thought- “I am not good enough.” Many stressful thoughts stem from this one thought. “I should be more…”, “I should have more…” Watch what happens when you believe these thoughts, it doesn’t feel good does it? The truth is that everyone is perfect as they are, it is only these stories that are telling us otherwise. </p>
+      <p>What happens when you believe the stressful thought-” My parents should be more understanding.” It hurts. When you don’t believe the stories your mind tells you, there isn’t a problem in the world. You're fine to experience everything as it is. You’re able to have a good look at what is without resistance. A good question to ask yourself is- “Is it true?” Byron Katie, in on of her wonderful books, “A Mind at Home With Itself” introduces us to inquiry. If you find a stressful thought, just question it. Then eventually every stressful thought will unravel itself before it can have any effect on you. </p>
+      <p>It’s funny sometimes how an argument can start from nothing. Let’s say that your partner comes home from work and they don’t talk much. Your thoughts may start creating stories of “What happend”, or “What is going on.” “They must be angry at me”, “What did I do this time” “They are so sensitive, so frustrating.” Now unfortunatly you believe this thoughts and as a result you become angry and silent. </p>
+      <p>Many of us have the thought- “I am not good enough.” Many stressful thoughts stem from this one thought. “I should be more…”, “I should have more…” Watch what happens when you believe these thoughts, it doesn’t feel good does it? The truth is that everyone is perfect as they are, it is only these stories that are telling us otherwise. </p>
 <p> When we compare ourselves with others we end up feeling either inferior or superior. We either end up as the lesser or as the better. These comparisons constantly put us in a vulnerable position. Any comparison argues with the truth. Reality is as it is, there is no need to make higher or lower, smaller, or bigger, greater, or lesser. </p>
 <p>Be aware of all the alluring stories that your thoughts tell you. We have been following after these stories all of our lives. Now we can be aware of these lies that our thoughts tell us. When we meet each thought with a knowing awareness then we no longer have to be trapped by them. Then we can be free from anything that argues with what is. </p>
 <p>In mindfulness we are aware of whatever thoughts arise. This is why meditation is so important, it allows us to get still enough to see the various thoughts that arise. As our mindfulness strengthens through meditation we are able to watch the mind and the subtle thoughts and ideas that pass through it. ”I need”, “They should be more.” Through this awareness we see that these are just thoughts. We once believed them, took them to be ours, but now we are simply aware of each small passing thought. It is like looking through a clear lake, everything is obvious to us now. We know what is going on. </p>
@@ -108,7 +115,7 @@ const sections: { [key: string]: Section } = {
     
     `,
     text: `
-      <h1>Feelings</h1>
+      <h1 style="font-size: 1.25rem; font-weight: bold;">Feelings</h1>
       <p> A feeling comes from a thought. If there is a thought then there is an accompanying feeling. We usually notice the feeling first before the thought. The feeling lets us know that we are caught in a stressful thought. Mindfulness involves being aware of how you are feeling throughout the day. Is there stress, sadness, or anger? Behind every feeling is a thought, so just trace it back to its origin. Why is there stress? What thought are you believing? Once we understand that feelings can only come from believing a thought that argues with reality then we can begin to let go.</p>
 <p> People can go around their entire lives not knowing that they don’t have to feel stressed, they don’t have to feel angry or worried. These feelings, once we see them clearly can be let go of. </p>
 <p>When we resist something it hurts. Suffering can only come from resistance. For example, let’s say you only slept 3 hours last night and the next day you’re tired. The tiredness is one thing, your resistance to it is another. If you are simply aware of the tiredness then there isn’t a problem. You just know how it feels, ok this is what tiredness feels like. You don’t add any resistance onto it, “This sucks”, “I’m not getting enough sleep.” When we are able to go about life without resistance then everything can be lived with a sense of acceptance. </p>
@@ -125,8 +132,16 @@ const sections: { [key: string]: Section } = {
       <p></p>
     `,
     text: `
-      <h1>Everyday Peace</h1>
-      <p>Freedom can only be found here an now. Not tomorrow, not yesterday, not on a mountain, but just right here. Peace can only come from within. It doesn’t come from achieving this or that. True lasting joy won’t reveal itself once you get the things you want. Let’s just start here, within. Then we will know a true happiness that doesn’t fall away. A joy that is immovable in all circumstances. </p>
+      <h1 style="font-size: 1.25rem; font-weight: bold;">Everyday Peace</h1>
+      <p>Freedom can only be found here and now, not tomorrow, not yesterday, not on a mountain or in a cave. It doesn’t come when we achieve this or that, it doesn’t come when we get the things we want. People think that first they have to get everything in their world right, get the things they want, and then they can be at peace. This isn’t the path to peace. Can we start now? Just right here? Let’s start from within. Then we will know a true happiness that doesn’t fall away. A joy that is bound by nothing. A peace that is immovable in all circumstances. </p>
+<h1>Peace Every Moment</h1>
+<p>Mindfulness is what we found when we first started walking this path. It’s nothing special and yet it’s perfect. When we are mindful then there is nothing else to do. If we remain mindful moment-to-moment then our practice will progress naturally. Situations, thoughts and feelings will become clearer. If something comes up then we are able to do what is necessary with wisdom and a light heart. When we are at peace then naturally we are able to live in harmony with others. When we start to love what is, then it follows that we love everything we see. We can listen to everyone with a clear mind and a kind, understanding, open heart.</p>
+<h1>Letting Go</h1>
+<p>As we continue to be mindful we will naturally start to let go. Holding on to something hurts, so we let go. Then we feel lighter, then we can know a complete peace. When we feel anything other than ok then it means we are still holding on to something. We are a bit stuck. So let go of that too. Put everything down, just be done with it. Then we are able to move through the world without attachment.</p>
+<p>If you sit there and want your mind to stop thinking then that is also holding on. It is just making it worse. Just let it be, don’t fight it. Don’t fight anything. Simply watch, notice, and let go. This is the way to peace.</p>
+<p>I’ve said enough, now it’s time to apply it in your everyday life. An instruction manual is only as useful as words on a page. You will have to use the guidelines and find your own way of practice. Look at your experience right now, be mindful of any thoughts that arise moment-to-moment. Continue meditating and the results will come on its own. </p>
+<p>I would like to give you a word of encouragement, mindfulness is the only way I know out of the stress and problems that people have to deal with in this age. Mindfulness is the way to happiness, peace, and clarity. I’m glad you found it</p>
+
     `,
     imageUrl: '/peace.png',
   },
@@ -154,18 +169,16 @@ const MindfulnessCourse = () => {
   };
 
   return (
-    <div className="relative flex flex-col items-center justify-center min-h-screen py-2 bg-gradient-to-r from-blue-100 to-blue-200">
-      <div className="absolute top-0 left-0 right-0 flex justify-between items-center w-full bg-white py-4 shadow-md z-10">
+    <div className="relative flex flex-col items-center justify-center min-h-screen py-2 bg-gradient-to-r from-blue-100 to-blue-200 w-full">
+      <div className="fixed top-0 left-0 right-0 flex flex-col md:flex-row justify-between items-center w-full bg-white py-4 shadow-md z-10">
         <Link className="px-4 py-2 mx-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600" href="/">
-
-            Home
-    
+          Home
         </Link>
-        <nav className="flex justify-around w-full">
+        <nav className="flex flex-wrap justify-center md:justify-around w-full md:w-auto">
           {Object.keys(sections).map((section) => (
             <button
               key={section}
-              className={`px-4 py-2 mx-2 rounded-lg ${
+              className={`px-4 py-2 m-1 md:mx-2 rounded-lg ${
                 selectedSection === section
                   ? 'bg-green-500 text-white'
                   : 'bg-blue-500 text-white hover:bg-blue-600'
@@ -176,27 +189,28 @@ const MindfulnessCourse = () => {
             </button>
           ))}
         </nav>
-      
       </div>
-      <div className="flex flex-col items-center mt-24 max-w-6xl">
-        <div className="flex flex-row items-start">
-          <div className="text-left p-4">
+      <div className="flex flex-col items-center mt-24 pt-20 max-w-6xl px-4 md:px-0 w-full">
+        <div className="flex flex-col items-center md:flex-row md:items-start w-full">
+          <div className="text-left p-4 w-full md:w-1/2">
             <div dangerouslySetInnerHTML={{ __html: sections[selectedSection].text }} className="text-gray-800"></div>
           </div>
-          <img src={sections[selectedSection].imageUrl} alt="Mindfulness" className="ml-4 mt-4 max-w-md rounded-lg shadow-lg" />
+          <img src={sections[selectedSection].imageUrl} alt="Mindfulness" className="mt-4 max-w-full md:max-w-md rounded-lg shadow-lg md:ml-4" />
         </div>
-        <div id="practice-section" className="bg-white p-6 rounded-lg shadow-md max-w-8xl text-center mb-8 mt-8">
+        <div id="practice-section" className="bg-white p-6 rounded-lg shadow-md max-w-full text-center mb-8 mt-8">
           <div dangerouslySetInnerHTML={{ __html: sections[selectedSection].practice }} className="text-gray-800"></div>
         </div>
       </div>
       <button
-          onClick={handleNextPageClick}
-          className="px-4 py-2 mx-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600"
-        >
-          Next Page
-        </button>
+        onClick={handleNextPageClick}
+        className="px-4 py-2 mx-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600"
+      >
+        Next Page
+      </button>
     </div>
   );
+  
+  
 };
 
 export default MindfulnessCourse;
