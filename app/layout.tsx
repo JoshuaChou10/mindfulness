@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Mindfulness",
-  description: "Includes a 6-week mindfulness course, a meditation timer, and a mindfulness journal",
+  description: "An introduction to mindfulness practice",
 };
 
 export default function RootLayout({
