@@ -97,7 +97,7 @@ const Meditation = () => {
   return (
     <div className="relative bg-black text-white flex items-center justify-center min-h-screen">
       <Link className="absolute top-4 left-4 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 flex items-center" href="/">
-      <FontAwesomeIcon icon={faHome}  onClick={toggleModal} />
+      <FontAwesomeIcon icon={faHome} />
       </Link>
       <FontAwesomeIcon icon={faInfoCircle} className="absolute top-4 right-4 text-white text-3xl cursor-pointer" onClick={toggleModal} />
       <div className="text-center">

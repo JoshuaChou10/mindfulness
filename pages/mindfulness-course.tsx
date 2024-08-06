@@ -2,7 +2,9 @@ import { useState, useEffect } from 'react';
 import '../app/globals.css';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import { faHome, faInfoCircle } from '@fortawesome/free-solid-svg-icons';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHome } from '@fortawesome/free-solid-svg-icons';
 interface Section {
   practice: string;
   text: string;
@@ -87,7 +89,7 @@ So now we come to the “what if’s”, and the “I don’t want this to happe
     `,
     text: `
     <h1 style="font-size: 1.25rem; font-weight: bold;">What is Meditation</h1>
-    <p>&emsp;Meditation is for us to settle down. It’s for us to get still. My grandfather used to love telling me stories about his meditation experiences. These stories got me interested in meditation but the change only started when I sat down and tried it myself. Having meditation as a part of your life is very helpful. Whenever you feel like you want to quiet down you can just go sit and meditate. When you have meditation by your side and in your life you find it difficult to get stressed. Your natural state is balanced, joyful and at peace. </p>
+    <p>&emsp;Meditation is for us to settle down. It’s for us to get still. It is about remaining peaceful and calm in every situation throughout the day. My grandfather used to love telling me stories about his meditation experiences. These stories got me interested in meditation but the change only started when I sat down and tried it myself. Having meditation as a part of your life is very helpful. Whenever you feel like you want to quiet down you can just go sit and meditate. When you have meditation by your side and in your life you find it difficult to get stressed. Your natural state is balanced, joyful and at peace. </p>
 <p>&emsp; Meditation is a great way to strengthen mindfulness. Being mindful on a daily basis is an important practice, but those who truly want to integrate mindfulness into their lives also meditate. Meditation supports mindfulness. The calm and stillness that comes from concentration makes it easier to remain balanced and at ease throughout the day.</p>
 <p>&emsp;As we begin to practice meditation you will find that everything becomes clearer. Meditation truly helps with every aspect of your life, from family life to work you are able to work in harmony with others and with the world.</p>
 <p>&emsp;Most people start with 5-10 minutes a day and slowly increase the time from there. 15 minutes, 20 minutes, 30 minutes. </p>
@@ -172,7 +174,7 @@ I find meditation really helps, it calms the mind so it becomes easier to notice
   },
   "Everyday Peace": {
     practice: `
-      <h2>Practice</h2>
+      <h2></h2>
       <p>&emsp;</p>
     `,
     text: `
@@ -186,7 +188,7 @@ I find meditation really helps, it calms the mind so it becomes easier to notice
 <p>&emsp;As we continue to be mindful we will naturally start to let go. Holding on to something hurts, so we let go. Then we feel lighter, then we can know a complete peace. When we feel anything other than ok then it means we are still holding on to something. We are a bit stuck. So let go of that too. Put everything down, just be done with it. Then we are able to move through the world without attachment.</p>
 <p>&emsp;If you sit there and want your mind to stop thinking then that is also holding on. It is just making it worse. Just let it be, don’t fight it. Don’t fight anything. Simply watch, notice, and let go. This is the way to peace.</p>
 <p>&emsp;I’ve said enough, now it’s time to apply it in your everyday life. An instruction manual is only as useful as words on a page. You will have to use the guidelines and find your own way of practice. Look at your experience right now, be mindful of any thoughts that arise moment-to-moment. Continue meditating and the results will come on its own. </p>
-<p>&emsp;I would like to give you a word of encouragement, mindfulness is the only way I know out of the stress and problems that people have to deal with in this age. I'm just a normal everyday person like you, and this peace that I am describing is availible right now for anyone willing to give it a try. Mindfulness is the way to happiness, peace, and clarity. I’m glad you found it.</p>
+<p>&emsp;I would like to give you a word of encouragement. Mindfulness is the only way I know out of the stress and problems that people live with. I'm just a normal everyday person like you, and this peace that I am describing is availible right now for anyone willing to give it a try. Mindfulness is the way to happiness, peace, and clarity. I’m glad you found it.</p>
 
     `,
     imageUrl: '/peace.png',
@@ -218,8 +220,11 @@ const MindfulnessCourse = () => {
     <div className="relative flex flex-col items-center justify-center min-h-screen py-2 bg-gradient-to-r from-blue-100 to-blue-200 w-full">
       <div className="fixed top-0 left-0 right-0 flex flex-col md:flex-row justify-between items-center w-full bg-white py-4 shadow-md z-10">
         <Link className="px-4 py-2 mx-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600" href="/">
-          Home
+        <FontAwesomeIcon icon={faHome} />
+
         </Link>
+
+        
         <nav className="flex flex-wrap justify-center md:justify-around w-full md:w-auto">
           {Object.keys(sections).map((section) => (
             <button
