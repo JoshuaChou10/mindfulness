@@ -21,6 +21,7 @@ const Home = () => {
   }, []);
 
   return (
+    <>
     <div className="flex flex-col items-center justify-center min-h-screen py-2 bg-gradient-to-r from-green-200 to-blue-200">
       <h1 className="text-4xl font-bold mb-8 text-gray-800">Mindfulness</h1>
       <Link href="/mindfulness-course?section=Mindfulness">
@@ -54,7 +55,14 @@ const Home = () => {
           </div>
         </Link>
       </div>
+      
+      
     </div>
+    <footer className="mt-8 text-center text-gray-500">
+    Made by Joshua Chou © {new Date().getFullYear()}
+  </footer>
+  
+ </>
   );
   
   
