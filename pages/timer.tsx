@@ -55,6 +55,15 @@ const Meditation = () => {
     oscillator.start();
     gainNode.gain.exponentialRampToValueAtTime(0.00001, audioContext.currentTime + 1);
     oscillator.stop(audioContext.currentTime + 1);
+    
+    const today = new Date().getDate();
+  const savedCompletedDays = localStorage.getItem('completedDays');
+  const completedDays = savedCompletedDays ? JSON.parse(savedCompletedDays) : [];
+
+  if (!completedDays.includes(today)) {
+    completedDays.push(today);
+    localStorage.setItem('completedDays', JSON.stringify(completedDays));
+  }
   };
   
   
