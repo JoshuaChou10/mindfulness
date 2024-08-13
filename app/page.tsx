@@ -9,7 +9,7 @@ const Home = () => {
 
 
   const handleGoalChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const newGoal = e.target.value;
+    const newGoal =e.target.value;
     setGoal(newGoal);
     localStorage.setItem('meditationGoal', newGoal);
   };

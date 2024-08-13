@@ -5,8 +5,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome, faInfoCircle } from '@fortawesome/free-solid-svg-icons';
 
 const Meditation = () => {
-  const [goal, setGoal] = useState(0);
-  const [timeMeditated, setTimeMeditated] = useState(0);
+  const [goal, setGoal] = useState<number>(0);
+  const [timeMeditated, setTimeMeditated] = useState<number>(0);
   const [isPaused, setIsPaused] = useState(false);
   const [modalOpen, setModalOpen]=useState(false);
   const intervalRef = useRef<NodeJS.Timeout | null>(null);
@@ -92,9 +92,10 @@ const Meditation = () => {
   };
 
   const formatTime = (seconds: number) => {
-    if(seconds<=0){
-      return "0:00"
+    if (isNaN(seconds) || seconds < 0) {
+      return "0:00";
     }
+    
     const minutes = Math.floor(seconds / 60).toString().padStart(2, '0');
     const remainingSeconds = (seconds % 60).toString().padStart(2, '0');
     return `${minutes}:${remainingSeconds}`;
