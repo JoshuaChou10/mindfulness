@@ -55,6 +55,7 @@ Like when sitting in the quiet forest, only the soft sounds of the birds chirpin
   },
   "The Present": {
     practice: `
+    
     <h1 style="font-size: 1.25rem; font-weight: bold;">Stillness</h1>
     <p>Everything can be found in the present moment, there is truly nothing more that you need. It is all complete here and now. 
     We are the stillness behind the thoughts. We are the stillness behind the feelings. The stillness behind anger, behind joy. The stillness behind suffering, behind happiness.
@@ -62,6 +63,11 @@ Like when sitting in the quiet forest, only the soft sounds of the birds chirpin
     The immovable awareness that is ever silent, ever watching. 
     The ego mind is one thing, the one of thoughts, limited and constrained. 
     You can say that awareness is the second mind, the pure, the free, the unlimited.</p>
+    <h1 style="font-size: 1.25rem; font-weight: bold;">The Ego</h1>
+    <p>We live our lives with an image of ourselves. I am this. I am that. I am small, strong, dumb, smart, ugly, beautiful, nervous, confident. We identify with our thoughts and feelings. If there is anger arising, we think within ourselves, "I am angry." Or "I am stressed", "I am sad." All these limited identifications are what causes the pain, the constraint. </p>
+    <p>Human life, especially in the west is devoted to protecting and enhancing this sense of self. To become better, more money, more achievements. An endless striving, that includes judgment of ourselves and others. Feelings of inadequacy only temporary alleviated by getting what we want.</p>
+    <p>"I am a teenager." "I am a teenager and a student" "I am a teenager and a student with stress issues who isn't enough." - You are who you believe you are. Once you stop believing these limited thoughts, and ask yourself-"Who am I" Who is the one that is experiencing pain, who is experiencing happiness? What is beyond all this? You are not what you take yourself to be. </p>  
+    
     
     
     `,
