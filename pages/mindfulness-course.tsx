@@ -188,8 +188,11 @@ I find meditation really helps, it calms the mind so it becomes easier to notice
   },
   "Everyday Peace": {
     practice: `
-      <h2></h2>
-      <p>&emsp;</p>
+      <h2 style="font-size: 1.25rem; font-weight: bold;">Good Books To Read</h2>
+      <p>"The Power of Now" - Eckhart Tolle</p>
+      <p>"A Path With Heart" - Jack Kornfield</p>
+      <p>"Being Dharma" - Ajahn Chan</p>
+      <p>"The Voice of Knowledge: A Practical Guide to Inner Peace" - Miguel Ruiz </p>
     `,
     text: `
       <h1 style="font-size: 1.25rem; font-weight: bold;">Everyday Peace</h1>
