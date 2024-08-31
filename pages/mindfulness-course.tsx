@@ -198,6 +198,19 @@ I find meditation really helps, it calms the mind so it becomes easier to notice
       <p>"A Path With Heart" - Jack Kornfield</p>
       <p>"Being Dharma" - Ajahn Chan</p>
       <p>"The Voice of Knowledge: A Practical Guide to Inner Peace" - Miguel Ruiz </p>
+      <br>
+      <br>
+      <h2 style="font-size: 1.25rem; font-weight: bold;">The Peace of the Sun</h2>
+      <p>Here we sit and watch</p>
+      <p>As the sun goes down</p>
+      <p>The water stills</p>
+      <p>The sky grows silent</p>
+      <br>
+      <p>The morning sun</p>
+      <p>Illuminates the night sky</p>
+      <p>It is here we find peace</p>
+      <p>In the midst of the mind</p>
+
     `,
     text: `
       <h1 style="font-size: 1.25rem; font-weight: bold;">Everyday Peace</h1>
