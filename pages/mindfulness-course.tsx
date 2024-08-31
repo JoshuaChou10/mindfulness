@@ -200,7 +200,7 @@ I find meditation really helps, it calms the mind so it becomes easier to notice
       <p>"The Voice of Knowledge: A Practical Guide to Inner Peace" - Miguel Ruiz </p>
       <br>
       <br>
-      <h2 style="font-size: 1.25rem; font-weight: bold;">The Peace of the Sun</h2>
+      <h2 style="font-size: 1.25rem; font-weight: bold;">The Peace in Us</h2>
       <p>Here we sit and watch</p>
       <p>As the sun goes down</p>
       <p>The water stills</p>
