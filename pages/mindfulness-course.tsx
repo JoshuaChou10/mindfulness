@@ -68,6 +68,12 @@ Like when sitting in the quiet forest, only the soft sounds of the birds chirpin
     
     `,
     text: `
+    <h1 style="font-size: 1.25rem; font-weight: bold;">Slow Down</h1>
+    <p>Slow down, can you wait, can you stay balanced, can you feel the Sacred in this moment.</p>
+    <p>Most of us go about our whole lives rushing here and there, tripping over the chair to quickly finish the next task. The problem with this is that is causes contraction both in the body and mind, you can feel it. When our mind is straining to get somewhere, or lost somewhere else, then we are stuck. We have lost this present moment.</p>
+    <p>I find it is very helpful to just be mindful of each urge as it arises, to stay balanced in the midst of it all. A natural sense of lightness, balance and joy naturally arises when we stop, and feel the deep that is in this eternal present</p>
+
+
     <h1 style="font-size: 1.25rem; font-weight: bold;">Savouring Every Moment</h1>
     <p>&emsp; When we begin to become mindful we are able to enjoy every moment as it is. It may take a long time for someone to realize that only the present moment can be savored. To see the morning sun. The soft trees rustling. How beautiful it is to see a bird fly across the sky, the sun set. Maybe they may have gone through their lives only half there. When spending time with their family, their minds are off somewhere else. When walking in a trail, or doing the dishes their minds are off thinking about things like work, school, song lyrics, conversations. Then one day they may come to see that life is to be lived right here right now. Where else can you go? </p>
 <p>&emsp;Try this out, whatever you&#39;re doing place your full attention on it, really take in every part of it. For example when talking to someone you are listening to what they are saying and not thinking of what you are going to say next. When peeling an orange you can notice the bright color of the skin, the feeling as you take off the peel. When eating notice the sweet taste and the juicy texture of the flesh. When our full attention is on whatever we are doing then we can say we are truly doing it. Have you ever peeled an orange before? Have you ever walked in a trail, or washed the dishes? When we are in the moment a genuine gratitude and love to just be in this world fills our lives.</p>
