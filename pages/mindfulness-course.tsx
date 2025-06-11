@@ -26,7 +26,6 @@ const sections: { [key: string]: Section } = {
     `,
     text: `
       <h1 style="font-size: 1.25rem; font-weight: bold;">An Introduction</h1>
-      <p>&emsp;When I was a kid (and some would argue that I still am), I learned about meditation. Now at the time I just thought it looked cool to sit with my legs crossed in a zen posture like my favourite TV character Aang. However, I soon learned that meditation was something far more grounded, and down-to-earth than I had once thought. </p>
       <p>&emsp;I started meditating daily at age 13. I came to meditation for the same reason that many other people started to meditate - “Because I didn’t like stress, and it sucked.” 
       </p>
 <p>&emsp;Before I was 13, I had tried and stopped meditation for periods of time. But this time was different. I knew that the hardest part of meditation wasn’t the ability to sit for a very long time on my ass, it was the ability to commit to the schedule set and the practice. 
