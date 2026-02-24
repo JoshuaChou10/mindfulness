@@ -25,7 +25,7 @@ const sections: { [key: string]: Section } = {
 
     `,
     text: `
-      <h1 style="font-size: 1.25rem; font-weight: bold;">An Introduction</h1>
+      <h1 id="an-introduction" style="font-size: 1.25rem; font-weight: bold;">An Introduction</h1>
       <p>&emsp;I started meditating daily at age 13. I came to meditation for the same reason that many other people started to meditate - “Because I didn’t like stress, and it sucked.” 
       </p>
 <p>&emsp;Before I was 13, I had tried and stopped meditation for periods of time. But this time was different. I knew that the hardest part of meditation wasn’t the ability to sit for a very long time on my ass, it was the ability to commit to the schedule set and the practice. 
@@ -45,7 +45,7 @@ My grandfather has been meditating for 40 years, and he always loves reminding u
 </p>
 <br>
 
-<h1 style="font-size: 1.25rem; font-weight: bold;">Waking Up</h1>
+<h1 id="waking-up" style="font-size: 1.25rem; font-weight: bold;">Waking Up</h1>
 
 <p>To live we do not need to go skydiving, we do not need to climb mount everest or become the founder of a large corporate business. To live we only need to live now, then we can begin to understand ourselves. The main reason sports are so enjoyable, I find, is because our attention is only on the game, the dribbling the basketball or spiking the volleyball, in that moment we are not lost in thought. We have to be present to win. So mindfulness is asking us to wake up. Every time we notice that we are lost in thought - just right now, in this moment, and come back to the Now, we wake up. It really does feel like this in my experience, every time I realize I’m lost thinking about something else and come back to the present,  it does feel like I was just in a dream, but when I come back to the present, it feels like waking up.</p>
 <br>
@@ -58,7 +58,7 @@ So sit down, and try to notice any breaks in between the thoughts, any areas of 
 Like when sitting in the quiet forest, only the soft sounds of the birds chirping. The leaves falling and drifting to the ground. The deep breeze rustling the trees. All in silence. </p>
 
 <br>
-<h1 style="font-size: 1.25rem; font-weight: bold;">Noticing </h1>
+<h1 id="noticing" style="font-size: 1.25rem; font-weight: bold;">Noticing </h1>
 
 <p>Mindfulness is simply noticing. You can notice how it feels to sit on this chair, you can notice any sounds you hear, you can notice the bright vibrant colors all around you. It&#39;s all to be found here. Another thing you may notice are any thoughts that come around. Even while reading this book. Any feelings that you can find. Comfortable or uncomfortable. Whatever you notice, that is fine. Take in a deep breath and take in all that&#39;s around you, and in you. </p>
 
@@ -120,14 +120,14 @@ I called it the fearful future, becuase we don't know what the future holds. A l
      
     `,
     text: `
-    <h1 style="font-size: 1.25rem; font-weight: bold;">What is Meditation</h1>
+    <h1 id="what-is-meditation" style="font-size: 1.25rem; font-weight: bold;">What is Meditation</h1>
     <p>We settle down on our meditation cushion or chair, keep our back straight, our body grounded. The awareness naturally falls to the in and out of the breath and how it feels through the body. With each in breath we feel the air fill our lungs and belly, with each out breath we relax once again. Our attention may naturally fall onto a specific part of this breathing process, how the breath feels through the nose for example. Breathing in we know we are breathing in, breathing out, we know we are breathing out. The thoughts slow down giving space to silence and calm. We may notice we are smiling as a natural sense of happiness and lightness arises from the silence. </p>
   <p>&emsp;For most people when we being meditation practice, the thoughts seem to be endless. We sit down and think "Ok let's try this out, relax and quiet the mind - easy. " Then after a few seconds of watching the breath, a thought arises - "I have to finish my english assignment" then after a few more seconds, "Am I doing this right?" But don't worry, there is no right or wrong in meditation as long as we keep returning our attention back to the present moment. When I first started meditating I already felt it was a miracle if I could stay focused for even 5 breaths. So we have to be patient, it's like learning to play the piano. In the beginning we may struggle to find the right fingering and the notes are sloppy, but after consistent practice we will get the hang of it, and the songs will begin to sound better.  </p>
   <p>&emsp;So this is training our awareness and concentration, and it has helped me greatly over the months and years I have been meditating. Before I started meditating I would feel stressed, bored, angry, and confused easily. Now with a daily meditation practice things feel lighter, happier, and more free. I've learned to relax, and to laugh at the things I once felt stressed or unsure about. These are just some of the benifits of meditation.   </p>
   <p>&emsp;We will notice subtle changes in the way we relate to the world. We won't want to rush around as much, maybe we'll take some time to appreciate the tree in our backyard. We're not as lost in past or future so we don't create as much unnecessary stress for ourselves. </p>
 <p>&emsp;Most people start with 5-10 minutes a day and slowly increase the time from there. 15 minutes, 20 minutes, 30 minutes. </p>
 <br>
-<h1 style="font-size: 1.25rem; font-weight: bold;">How to Meditate</h1>
+<h1 id="how-to-meditate" style="font-size: 1.25rem; font-weight: bold;">How to Meditate</h1>
 <p>&emsp;To start find a nice comfortable spot to sit with minimal disturbance. Keep your back straight, this is important for keeping relaxed and balanced. You can sit on the edge of the chair or on a cushion. </p>
      <p>&emsp;Take 2-3 deep breaths to relax then gently place your attention on the in and out of the breath.</p>
      <p>&emsp;Feel as the cool air comes in and as the soft air comes out. Feel the slight pause in between the in breath and the out breath.</p>
@@ -136,7 +136,7 @@ I called it the fearful future, becuase we don't know what the future holds. A l
      <p>&emsp;As you continue watching the in-breath and the out-breath, various thoughts will arise. The mind will wander just like it always does throughout the day, thinking about this and that. In meditation we can be aware that we are lost in thought. Once we notice that we have wandered off we gently bring our attention back to the breath. </p>
      <p>&emsp;Returning to this breath over and over is the essence of meditation. It is like training a muscle. We must work at it over and over again, then we will become strong. After meditation we feel well rested and at peace. Our daily lives become clearer. Our body is more relaxed throughout the day. Subtle thoughts or ideas that once ran underground our attention, now appear clearer to us. We see that every painful feeling can only come from believing a stressful thought. With this stillness, we are able to keep watchful and calm, seeing any stressful thoughts or feelings, and letting them go.</p>
      <br>
-     <h1 style="font-size: 1.25rem; font-weight: bold;">Clarity</h1>
+     <h1 id="clarity" style="font-size: 1.25rem; font-weight: bold;">Clarity</h1>
      <p>&emsp;It can be compared to a lake. Usually, in our every day lives, the lake is muddy and wavy so when we walk in it we can&#39;t see all the various garbage, the fish, the crabs that are at the bottom of the floor. So we are constantly stepping on them. It's murky, not so nice. When we meditate we continuously return to the object of concentration to make the water still and let everything settle down so we can look through the crystal clear water and avoid anything that would hurt to step on. We are wise. Now that the lake is still and clear we can actually enjoy our time here. The lake is our mind, the fish and crabs are our thoughts. Stepping on them represents believing our painful thoughts and following after them. This is why we remain mindful throughout the day, so we know what is going on and we are able to remain calm and at ease. </p>
      <p>&emsp; Our life can be compared to the breath. We are clear about what is going on in every moment. When the breath is going in we know it is going in. Going out, we know it is going out. If it is short, we know it is short. If it is long we know it is long. So too, we are clear about every situation. If there is anger, or stress, or boredom, we can name it-"boredom", or "tense." When doing something we can be clear about are intention. Why are we doing this, is it out of fear, anger? Or is it our of love, and goodness. </p> 
       <p>&emsp;I like meditating in the morning, right when I get up from bed, then I go for a walk outside. I find it is very good. Although you can find what time works best for you. Meditation and getting still is very good to have it as a part of your life.  </p>
@@ -240,12 +240,24 @@ I find meditation really helps, it calms the mind so it becomes easier to notice
     imageUrl: '/peace.png',
   },
 };
-
+const pageAnchors: Record<string, { id: string; label: string }[]> = {
+  Meditation: [
+    { id: 'what-is-meditation', label: 'What is Meditation' },
+    { id: 'how-to-meditate', label: 'How to Meditate' },
+    { id: 'clarity', label: 'Clarity' },
+  ],
+  Mindfulness: [
+    { id: 'an-introduction', label: 'Intro' },
+    { id: 'waking-up', label: 'Waking Up' },
+    { id: 'noticing', label: 'Noticing' },
+  ],
+};
 const MindfulnessCourse = () => {
   const router = useRouter();
   const { section } = router.query;
+
   const [selectedSection, setSelectedSection] = useState<keyof typeof sections>(
-    section && typeof section === 'string' && sections[section] ? section : 'Mindfulness'
+    section && typeof section === 'string' && sections[section] ? (section as keyof typeof sections) : 'Mindfulness'
   );
 
   useEffect(() => {
@@ -254,6 +266,10 @@ const MindfulnessCourse = () => {
     }
   }, [section]);
 
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, [selectedSection]);
+
   const handleNextPageClick = () => {
     const sectionsKeys = Object.keys(sections);
     const currentIndex = sectionsKeys.indexOf(selectedSection as string);
@@ -261,6 +277,17 @@ const MindfulnessCourse = () => {
     setSelectedSection(sectionsKeys[nextIndex] as keyof typeof sections);
   };
 
+  const anchors = pageAnchors[selectedSection as string] ?? [];
+
+  const scrollToId = (id: string) => {
+    const el = document.getElementById(id);
+    if (!el) return;
+
+    const yOffset = -140; // fixed header + nav chips
+    const y = el.getBoundingClientRect().top + window.scrollY + yOffset;
+
+    window.scrollTo({ top: y, behavior: 'smooth' });
+  };
   return (
     <div className="relative flex flex-col items-center justify-center min-h-screen py-2 bg-gradient-to-r from-blue-100 to-blue-200 w-full">
       <div className="fixed top-0 left-0 right-0 flex flex-col md:flex-row justify-between items-center w-full bg-white py-4 shadow-md z-10">
@@ -286,6 +313,22 @@ const MindfulnessCourse = () => {
           ))}
         </nav>
       </div>
+      {anchors.length > 0 && (
+        <div className="w-full max-w-6xl px-4 md:px-0 mt-24 pt-4">
+          <div className="flex flex-wrap gap-2 items-center justify-center bg-white/70 backdrop-blur border border-white/40 rounded-xl p-3 shadow-sm">
+            <span className="text-sm font-semibold text-gray-700 mr-2">On this page:</span>
+            {anchors.map((a) => (
+              <button
+                key={a.id}
+                onClick={() => scrollToId(a.id)}
+                className="text-sm px-3 py-1.5 rounded-full bg-blue-600 text-white hover:bg-blue-700 transition"
+              >
+                {a.label}
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
       <div className="flex flex-col items-center mt-24 pt-20 max-w-6xl px-4 md:px-0 w-full">
         <div className="flex flex-col items-center md:flex-row md:items-start w-full">
           <div className="text-left p-4 w-full md:w-1/2">

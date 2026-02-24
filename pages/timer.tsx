@@ -133,7 +133,7 @@ const Meditation = () => {
         <div className="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-50">
           <div className="bg-white p-6 rounded-lg shadow-lg max-w-sm">
             <h2 className="text-2xl mb-4">Information</h2>
-            <p className="text-gray-800">When using a stopwatch to meditate, set it aside and forget about it. Then you can meditate without thinking about the time. When the timer rings then you know to get up. </p>
+            <p className="text-gray-800">Set your daily goal on the home page. When using a stopwatch to meditate, set it aside and forget about it. Then you can meditate without thinking about the time. When the timer rings then you know to get up. </p>
             <button onClick={toggleModal} className="mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
               Close
             </button>

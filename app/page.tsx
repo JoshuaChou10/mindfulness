@@ -77,14 +77,17 @@ const Home = () => {
               </button>
             </Link>
             <div>
-              <input
-                type="number"
-                placeholder="Daily Goal (minutes)"
-                value={goal}
-                onChange={handleGoalChange}
-                className="mt-4 px-4 py-2 border rounded-lg text-black"
-              />
-            </div>
+  {goal !== '' && (
+    <label className="block text-black mb-4 px-6">Set time (minutes):</label>
+  )}
+  <input
+    type="number"
+    placeholder="Daily Goal (minutes)"
+    value={goal}
+    onChange={handleGoalChange}
+    className="mt-4 px-4 py-2 border rounded-lg text-black"
+  />
+</div>
           </div>
   
           {/* Calendar Component */}
