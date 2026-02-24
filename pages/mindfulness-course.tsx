@@ -106,15 +106,15 @@ I called it the fearful future, becuase we don't know what the future holds. A l
   "Meditation": {
     practice: `
     <h1 style="font-size: 1.25rem; font-weight: bold;">Tips and Tricks</h2>
-    <p>&emsp; As we have established, it is not always easy to maintain awareness of the breath. Here I have provided some tips for returning back to the present, not only in meditation, but in everyday life</p>
+    <p>&emsp; Watch the breath as it comes in and out naturally. As you might have noticed, it's not always easy to maintain awareness of the breath. Here I have provided some tips for returning back to the present, not only in meditation, but in everyday life</p>
     <ul>
-    <li>SAW: I created this acronym for whenever I was overwhelmed by work, or just life in general. S for Stop. Stop the doing and worrying, sit still. A for 'be Aware'. Watch the sensations around the body, be aware of the feelings of of worry or tension. Watch the thoughts come and go instead of following after them. W for "Watch the breath." Place your attention on the in and out of the breath, let the mind quiet down as you become centered.</li>
-    <li>Counting: On the in breath silently count one, and on the out breath - two... Continue counting like this for each breath until you reach 10, then start again from one. Counting is helpful for keeping attention on each breath especially when the mind keeps drifting off. Sometimes you may lose count, 6..7..9...11 wait where was I? So if this is the case, then just return your attention and start again from one.</li>
-    <li>Relaxed consistency: Concentration is not about force or striving, it is only patiently returning each time we notice we are lost. Jack Kornfield compared this to training a puppy. You put the puppy on the mat and say "sit." Then it jumps up, and start wandering around the house, so you pick it up, and place it back on the mat. This is the way to make good progress</li>
-    <li>Full body breathing: If we feel we are too tight then we can try expanding our awareness to the whole body. When breathing in, notice how it feels when the air enters the lungs, stomach, body. When breathing out, notice how it feels to relax within the body. You can also expand your attention to sounds, I find this helps take away a lot of the tension and striving. </li>
-    <li>Re-focusing: Sometimes after a period of stillness the mind will drift off again. When this happens take a deep breath, and let all the air out of your lungs. This will help relax and refocus the attention on the breath again.</p>
-    <li>Good Posture: You can imagine a line from the ceiling down to the top of your head keeping your spine upright. At the same time, your body is grounded and still in the seat. Halfway between heaven and earth they say.</li>
-   
+    <li><b>Counting:</b> On the in breath silently count one, and on the out breath - two... Continue counting like this for each breath until you reach 10, then start again from one. Counting is helpful for keeping attention on each breath especially when the mind keeps drifting off. Sometimes you may lose count, 6..7..9...11 wait where was I? If this happens, then just return your attention and start again from one.</li>
+    <li><b>Full body breathing:</b> If we feel we are too tight then we can try expanding our awareness to the whole body. When breathing in, notice how it feels when the air enters the lungs, stomach, body. When breathing out, notice how it feels to relax within the body. You can also expand your attention to sounds, I find this helps take away a lot of the tension and striving. </li>
+    <li><b>Re-focusing:</b> Sometimes after a period of stillness the mind will drift off again. When this happens take a deep breath, and let all the air out of your lungs. This will help relax and refocus the attention on the breath again.</p>
+    <li><b>Posture:</b> Keeping a straight back helps you stay alert and allows you to breathe easily. You can imagine a line from the ceiling down to the top of your head keeping your spine upright. At the same time, your body is grounded and still in the seat. Halfway between heaven and earth they say.</li>
+    <li><b>Relaxed consistency:</b> Concentration is not about force or striving, it is only patiently returning each time we notice we are lost. Jack Kornfield compared this to training a puppy. You put the puppy on the mat and say "sit." Then it jumps up, and start wandering around the house, so you pick it up, and place it back on the mat. This is the way to make good progress</li>
+    <li><b>SAW:</b> I created this acronym for whenever I was overwhelmed by work, or just life in general. S for Stop. Stop the doing and worrying, sit still. A for 'be Aware'. Watch the sensations around the body, be aware of the feelings of of worry or tension. Watch the thoughts come and go instead of following after them. W for "Watch the breath." Place your attention on the in and out of the breath, let the mind quiet down as you become centered.</li>
+
     </ul>
 
      
@@ -245,11 +245,13 @@ const pageAnchors: Record<string, { id: string; label: string }[]> = {
     { id: 'what-is-meditation', label: 'What is Meditation' },
     { id: 'how-to-meditate', label: 'How to Meditate' },
     { id: 'clarity', label: 'Clarity' },
+
   ],
   Mindfulness: [
     { id: 'an-introduction', label: 'Intro' },
     { id: 'waking-up', label: 'Waking Up' },
     { id: 'noticing', label: 'Noticing' },
+    
   ],
 };
 const MindfulnessCourse = () => {
@@ -329,6 +331,14 @@ const MindfulnessCourse = () => {
           </div>
         </div>
       )}
+      <div className="w-full max-w-6xl px-4 md:px-0 mt-2 flex justify-center">
+  <button
+    onClick={() => scrollToId('practice-section')}
+    className="text-sm px-4 py-2 rounded-full bg-green-500 text-white shadow-md hover:bg-green-600 transition"
+  >
+    ↓ Scroll for Practice Exercise
+  </button>
+</div>
       <div className="flex flex-col items-center mt-24 pt-20 max-w-6xl px-4 md:px-0 w-full">
         <div className="flex flex-col items-center md:flex-row md:items-start w-full">
           <div className="text-left p-4 w-full md:w-1/2">
