@@ -136,10 +136,11 @@ I called it the fearful future, becuase we don't know what the future holds. A l
      <p>&emsp;As you continue watching the in-breath and the out-breath, various thoughts will arise. The mind will wander just like it always does throughout the day, thinking about this and that. In meditation we can be aware that we are lost in thought. Once we notice that we have wandered off we gently bring our attention back to the breath. </p>
      <p>&emsp;Returning to this breath over and over is the essence of meditation. It is like training a muscle. We must work at it over and over again, then we will become strong. After meditation we feel well rested and at peace. Our daily lives become clearer. Our body is more relaxed throughout the day. Subtle thoughts or ideas that once ran underground our attention, now appear clearer to us. We see that every painful feeling can only come from believing a stressful thought. With this stillness, we are able to keep watchful and calm, seeing any stressful thoughts or feelings, and letting them go.</p>
      <br>
-     <h1 id="clarity" style="font-size: 1.25rem; font-weight: bold;">Clarity</h1>
-     <p>&emsp;It can be compared to a lake. Usually, in our every day lives, the lake is muddy and wavy so when we walk in it we can&#39;t see all the various garbage, the fish, the crabs that are at the bottom of the floor. So we are constantly stepping on them. It's murky, not so nice. When we meditate we continuously return to the object of concentration to make the water still and let everything settle down so we can look through the crystal clear water and avoid anything that would hurt to step on. We are wise. Now that the lake is still and clear we can actually enjoy our time here. The lake is our mind, the fish and crabs are our thoughts. Stepping on them represents believing our painful thoughts and following after them. This is why we remain mindful throughout the day, so we know what is going on and we are able to remain calm and at ease. </p>
-     <p>&emsp; Our life can be compared to the breath. We are clear about what is going on in every moment. When the breath is going in we know it is going in. Going out, we know it is going out. If it is short, we know it is short. If it is long we know it is long. So too, we are clear about every situation. If there is anger, or stress, or boredom, we can name it-"boredom", or "tense." When doing something we can be clear about are intention. Why are we doing this, is it out of fear, anger? Or is it our of love, and goodness. </p> 
-      <p>&emsp;I like meditating in the morning, right when I get up from bed, then I go for a walk outside. I find it is very good. Although you can find what time works best for you. Meditation and getting still is very good to have it as a part of your life.  </p>
+     <h1 id="qa" style="font-size: 1.25rem; font-weight: bold;">Questions and Answers</h1>
+     <p><b>Q:</b>I have so many thoughts when I try to meditate  </p>
+     <p><b>A:</b>That means you're getting it right. It's a great thing that you're beginning to notice how often the mind wanders. Most people aren't even aware of how much they get lost in thought until they sit down to meditate. So just noticing how much the mind wanders is a great step forward.
+     <p>&emsp;You don't have to try to get the mind to stop thinking, simply return your attention to the breath every time you get lost, and the thoughts will slow down by themselves.</p>
+     <p>&emsp;You could also try thought meditation. Watch the thoughts that come and go without trying to change or get rid of them. </p>
       
 
     `,
@@ -244,7 +245,7 @@ const pageAnchors: Record<string, { id: string; label: string }[]> = {
   Meditation: [
     { id: 'what-is-meditation', label: 'What is Meditation' },
     { id: 'how-to-meditate', label: 'How to Meditate' },
-    { id: 'clarity', label: 'Clarity' },
+    { id: 'qa', label: 'Q&A' },
 
   ],
   Mindfulness: [
@@ -271,7 +272,28 @@ const MindfulnessCourse = () => {
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }, [selectedSection]);
-
+  useEffect(() => {
+    if (!router.isReady) return;
+  
+    const hash = window.location.hash.replace('#', '');
+    if (!hash) return;
+  
+    setTimeout(() => {
+      const el = document.getElementById(hash);
+      if (!el) return;
+  
+      const yOffset = -140;
+      const y =
+        el.getBoundingClientRect().top +
+        window.scrollY +
+        yOffset;
+  
+      window.scrollTo({
+        top: y,
+        behavior: 'smooth',
+      });
+    }, 200);
+  }, [router.isReady, selectedSection]);
   const handleNextPageClick = () => {
     const sectionsKeys = Object.keys(sections);
     const currentIndex = sectionsKeys.indexOf(selectedSection as string);

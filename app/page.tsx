@@ -47,7 +47,7 @@ const Home = () => {
 
         <div className="flex flex-col md:flex-row justify-center w-full px-10 gap-10">
           {/* Learn about Meditation */}
-          <Link href="/mindfulness-course?section=Meditation" className="flex-1">
+          <Link href="/mindfulness-course?section=Meditation#how-to-meditate" className="flex-1">
   <div
     className="
       flex flex-col items-center
@@ -59,6 +59,7 @@ const Home = () => {
       cursor-pointer
     "
   >
+    
     <h2 className="text-3xl font-semibold mb-2 text-green-700">
       Meditation
     </h2>
