@@ -137,11 +137,22 @@ I called it the fearful future, becuase we don't know what the future holds. A l
      <p>&emsp;Returning to this breath over and over is the essence of meditation. It is like training a muscle. We must work at it over and over again, then we will become strong. After meditation we feel well rested and at peace. Our daily lives become clearer. Our body is more relaxed throughout the day. Subtle thoughts or ideas that once ran underground our attention, now appear clearer to us. We see that every painful feeling can only come from believing a stressful thought. With this stillness, we are able to keep watchful and calm, seeing any stressful thoughts or feelings, and letting them go.</p>
      <br>
      <h1 id="qa" style="font-size: 1.25rem; font-weight: bold;">Questions and Answers</h1>
-     <p><b>Q:</b>I have so many thoughts when I try to meditate  </p>
-     <p><b>A:</b>That means you're getting it right. It's a great thing that you're beginning to notice how often the mind wanders. Most people aren't even aware of how much they get lost in thought until they sit down to meditate. So just noticing how much the mind wanders is a great step forward.
+     The following questions and answers are based on the responses I have shared with individuals who have asked me about meditation, including classmates, friends, family members, and people on social media.
+      <p>Q:<i>I have so many thoughts when I try to meditate</i>  </p>
+     <p>A:That means you're getting it right. It's a great thing that you're beginning to notice how often the mind wanders. Most people aren't even aware of how much they get lost in thought until they sit down to meditate. So just noticing how much the mind wanders is a great step forward.
      <p>&emsp;You don't have to try to get the mind to stop thinking, simply return your attention to the breath every time you get lost, and the thoughts will slow down by themselves.</p>
      <p>&emsp;You could also try thought meditation. Watch the thoughts that come and go without trying to change or get rid of them. </p>
-      
+     <p>Q:<i>I am already quite happy, what is the benefit of meditating?</i> </p>
+     <p> 
+     A: I would definitely be in a different place now if I hadn't started meditating. Sometimes after a really long day of work, where even lying down on my bed won't help the fatigue - I meditate. After meditating I often feel much more refreshed, clear, and happy.
+     Meditation hasn't just made me more happy, but it has helped me stay still amidst the ups and downs of life. Through meditation, I am gradually learning to let things happen as they happen without resisting or grasping. Difficult emotions like stress, boredom, anger and sadness still come, but I find it is easier to deal with them. This process has helped me stop running from my difficulties, and instead to sit with whatever comes and face it directly.
+     </p>
+     <p>Q:<i>I keep getting sleepy when meditating</i> </p>
+     <p> 
+     A: Yeah, I mean honestly meditation is a good way to fall asleep. If you're having trouble sleeping at night then just go meditate. But if you want to stay awake, there are a few things you can try. When I get sleepy I sometimes do walking meditation where I focus on my feet touching the floor. This helps me stay awake. Sometimes I splash cold water on my face, but if that doesn't work either then I just lie down and rest. 
+     <p>&emsp;Feeling sleepy may be becuase you've just come back from a long day of work and your body needs to rest. But sleepiness could also be a good sign. Sometimes when our mind is getting quiet in meditation we start feeling sleepy. </p>
+     </p>
+
 
     `,
     imageUrl: '/meditation.png',
